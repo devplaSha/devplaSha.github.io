@@ -1,0 +1,119 @@
+*{
+font-family: 'Fredoka', sans-serif;
+
+}
+body{
+    background: radial-gradient();
+    background-color: rgb(29, 28, 28);
+}
+
+.Startseite_text{
+    color: #00ffff88;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #ff00f277,rgba(51, 0, 146, 0.521));
+    background-size: 100% 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 4px 4px;
+    
+}
+h1{
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); 
+    size: 100%; 
+    color: white;
+}
+
+h2{
+    
+    color: rgb(180, 180, 180);
+    size: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px ;
+    
+}
+
+h3{
+    
+    color: rgb(180, 180, 180);
+    size: 100%;
+    display: flex;
+    justify-content: center;
+       
+}
+
+.Haupttext{
+    padding: 40px;
+}
+
+.Haupttext2{
+    
+    color: rgb(180, 180, 180);
+    font-size:larger;  
+    padding: 5px;
+}
+
+.Haupttext3{
+    color: rgb(180, 180, 180);
+    font-size:larger; 
+    padding: 5px;
+}
+
+
+button{
+height: 50px;
+    width: 180px;
+    border-radius: 60px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    background: linear-gradient(to right,#ff00f277,rgba(51, 0, 146, 0.521));
+    transition: 0.2s;
+    
+}
+
+.home_botton_gh{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.Kontakt_botton_gh{
+    text-decoration: none;
+    color: white;
+}
+
+.donate_botton_gh{
+    text-decoration: none;
+    color: white;
+}
+.Gehaltsrechner_button{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.ToDoList_button{
+    text-decoration: none;
+    color: white;
+}
+
+.button_links{
+    display: flex;
+    justify-content:center;
+    padding: 20px 5px;  
+    
+}
+
+button:hover{
+    width: 250px;
+}
+
+button:focus{
+    border: none;
+}
+
+.tools{
+    padding: 20px;
+}

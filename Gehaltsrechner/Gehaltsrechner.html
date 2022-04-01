@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gehaltsrechner</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="Gehaltsrechner.css">
+    <script src="Gehaltsrechner.js" defer></script>
+    
+    
+</head>
+<body>
+
+
+
+  <div class="ToDoList_container">
+<form>
+  <form onsubmit="getresult()">
+<div class="Ü-Gehaltsrechner"><h1>Gehaltsrechner</h1></div>
+  <div class="eingabefeld_Bruttogehalt"></div>
+    <label class="bezeichnung_brutto" for="eingabefeld_Bruttogehalt" ><b>Bruttogehalt*</b></label>
+    <div class="input_text"></div>
+   <input type="number" step="any"  required="required" id="eingabefeld_Bruttogehalt">
+  
+
+  <div class="Steuerklasse"></div>
+    <label for="Steuerklasse"><b>Steuerklasse*</b></label>
+    <div class="select_drop"></div>
+    <select name="Steuerklasse"  required="required">
+      <option value="Steuerklasse"id="LSK1">Lohnsteuerklasse 1</option>
+      <option value="Steuerklasse"id="LSK2">Lohnsteuerklasse 2</option>
+      <option value="Steuerklasse"id="LSK3">Lohnsteuerklasse 3</option>
+      <option value="Steuerklasse"id="LSK4">Lohnsteuerklasse 4(mit Faktor)</option>
+      <option value="Steuerklasse"id="LSK5">Lohnsteuerklasse 5</option>
+      <option value="Steuerklasse"id="LSK6">Lohnsteuerklasse 6</option>
+    </select>
+  
+
+  <div class="Bundesland"></div>
+    <label for="Bundesland">Bundesland</label>
+    <div class="select_drop"></div>
+    <select name="Bundesland" >
+      <option value="Bundesland" id="select_drop">Berlin</option>
+      <option value="Bundesland"id="select_drop">Brandenburg</option>
+      <option value="Bundesland"id="select_drop">Bayern</option>
+      <option value="Bundesland"id="select_drop">Baden-Württremberg</option>
+      <option value="Bundesland"id="select_drop">Bremen</option>
+      <option value="Bundesland"id="select_drop">Hamburg</option>
+      <option value="Bundesland"id="select_drop">Hessen</option>
+      <option value="Bundesland"id="select_drop">Meckl.-Vorpommern</option>
+      <option value="Bundesland"id="select_drop">Niedersachsen</option>
+      <option value="Bundesland"id="select_drop">Nordrhrein-Westfalen</option>
+      <option value="Bundesland"id="select_drop">Rheinland-Pfalz</option>
+      <option value="Bundesland"id="select_drop">Saarland</option>
+      <option value="Bundesland"id="select_drop">Sachsen</option>
+      <option value="Bundesland"id="select_drop">Sachsen-Anhalt</option>
+      <option value="Bundesland"id="select_drop">Schleswig-Holstein</option>
+      <option value="Bundesland"id="select_drop">Thüringen</option>
+    </select>
+  
+
+  <div class="eingabefeld_Wohnort"></div>
+    <label for="eingabefeld_Wohnort">Wohnort(optional)</label>
+    <div class="input_text"></div>
+    <input type="text" step="text" >
+  
+
+  <div class="eingabefeld_Beruf"></div>
+    <label for="eingabefeld_Beruf">Beruf(optional)</label>
+    <div class="input_text"></div>
+    <input type="text" step="text" >
+  
+
+  <div class="Krankenkasse_dropdown"></div>
+    <label for="versicherungsstatus"><b>Krankenkasse*</b></label>
+    <div class="select_drop"></div>
+    <select name="versicherungsstatus"  required="required">
+      <option value="gesetzlich Krankenversichert" id="GK">gesetzlich Krankenversichert</option>
+      <option value="privat krankenversichert" id="PK">privat Krankenversichert </option>
+    </select>
+
+    <div class="Ergebnis"></div>
+      <label for="Ergebnis">Ergebnis</label>
+      <div class="input_text"></div>
+      <input type="any" name="result" id="result">
+
+
+
+
+    <div class="button_container">
+    <button type ="submit">Berechen</button>
+    </form>
+    
+    
+</form>
+</div>
+    <div class="button_links">
+    <button><a class="home_botton_gh" href="C:\Users\pasca\desktop\Desktop\Gehaltsrechner\EZtools.html">Home</a></button>
+    <button><a class="Kontakt_botton_gh" href="C:\Users\pasca\desktop\Desktop\Gehaltsrechner\Kontakt.html">Kontakt</a></button>
+    <button><a class="donate_botton_gh" href="https://paypal.me/PascalBeyer?country.x=DE&locale.x=de_DE">Donate</a></button>
+
+    </div>
+    
+</body>
+</html>

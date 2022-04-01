@@ -1,0 +1,150 @@
+
+
+*{
+font-family: 'Fredoka', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+}
+.Kontakt_container{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: radial-gradient();
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    height: 750px;
+    width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 404);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 38px;
+
+    background-image: linear-gradient(to right, rgb(0, 255, 213),rgb(13, 202, 193));
+    background-size: 100% 4px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.inputs_container_kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 64px;
+    width: 250px;
+    margin: 15px;
+    padding: 0px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(122, 122, 122);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 212);
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+input:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(153, 153, 153);
+    width: 265px; 
+}
+
+input::placeholder{
+    color: rgb(159, 161, 190);
+}
+
+button{
+    height: 64px;
+    width: 180px;
+    border-radius: 60px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    background: linear-gradient(to right,rgb(0, 255, 213),rgb(13, 202, 193));
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+button:hover{
+    width: 370px;
+}
+
+button:focus{
+    border: none;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_botton_gh{
+    text-decoration: none;
+    color: white;
+}
+
+.Kontakt_botton_gh{
+    text-decoration: none;
+    color: white;
+}
+
+.donate_botton_gh{
+    text-decoration: none;
+    color: white;
+}
+.button_links{
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px;
+    
+    
+}
+
+input.Nachricht_box{
+    height: 300px;
+    
+    
+}
+
+
+
+
+
+
+

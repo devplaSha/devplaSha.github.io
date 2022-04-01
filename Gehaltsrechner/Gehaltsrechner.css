@@ -1,0 +1,165 @@
+*{
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+form{
+    height: 850px;
+    width: 650px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    box-shadow:  1px 1px 4px 4px #00ffff65;
+    
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+html{
+    height: 100%;
+}
+
+.Gehaltsrechner_container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    text-shadow:  2px 2px rgb(58, 58, 58);
+
+    background-image: linear-gradient(to right, #ff00f277,rgba(51, 0, 146, 0.521));
+    background-size: 100% 4px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+} 
+
+select{
+    height: 64px;
+    width: 350px;
+    margin: 15px;
+    padding: 0px 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(122, 122, 122);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 212);
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+    display: flex;
+    
+}
+
+select:hover{
+    width: 370px;
+}
+
+input {
+    height: 64px;
+    width: 300px;
+    margin: 15px;
+    padding: 0px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(122, 122, 122);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 212);
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input:hover{
+
+width: 320px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    height: 64px;
+    width: 180px;
+    border-radius: 60px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    background: linear-gradient(to right,#ff00f277,rgba(51, 0, 146, 0.521));
+    transition: 0.2s;
+}
+
+button:hover{
+    width: 250px;
+}
+
+button:focus{
+    border: none;
+}
+
+label{
+    color: white;
+    font-size: large;
+    
+    
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gehaltsrechner_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button_links{
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px;
+    
+    
+}
+
+.home_botton_gh{
+    text-decoration: none;
+    color: white;
+}
+
+.Kontakt_botton_gh{
+    text-decoration: none;
+    color: white;
+}
+
+.donate_botton_gh{
+    text-decoration: none;
+    color: white;
+}
+
+
+
